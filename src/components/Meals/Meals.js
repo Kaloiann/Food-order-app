@@ -2,7 +2,7 @@ import React from 'react'
 import AvaliableMeals from './AvaliableMeals'
 import MealsSummary from './MealsSummary'
 
-const Meals = () => {
+const Meals = (props) => {
   return (
     <>
         <MealsSummary />
